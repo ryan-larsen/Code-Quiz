@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+
+    <title>Code Quiz</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 highscores">
+                Time: <span id="timer">0</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <a href="highscores.html">Highscores</a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div id="startScreen" class="col-md-12 px-3 m-5">
+                <h1 class="title">Coding Quiz</h1>
+                <p>Select correct answer from multiple choice questions. Selecting the wrong one will remove 10 seconds from your time. Your time equals your score at the end. Work fast and be correct.</p>
+                <button id="startBtn">Start Quiz</button>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+    <script src="questions.js"></script>
+    <script src="scores.js"></script>
+</body>
+
+</html>
